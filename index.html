@@ -35,7 +35,7 @@
                 return;
             }
             var text = $('textarea[name=text]').val();
-            if (text.length == 0) { alert("Message is empty")}
+            if (text.length == 0) { alert("Message is empty")} 
             var url = 'http://api.whatsapp.com/send?phone='+ phone + '&text=' + text;
             var win = window.open(url , '_blank');
             win.focus();
