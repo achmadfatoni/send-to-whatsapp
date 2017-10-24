@@ -30,6 +30,10 @@
         var btnSend = $('.send');
         btnSend.click(function (){
             var phone = $('input[name=phone]').val();
+            if (!phone) {
+                alert('Please enter a phone number');
+                return;
+            }
             var text = $('textarea[name=text]').val();
             var url = 'http://api.whatsapp.com/send?phone='+ phone + '&text=' + text;
             var win = window.open(url , '_blank');
