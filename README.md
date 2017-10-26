@@ -1,0 +1,3 @@
+## About Send To Whatsapp
+
+Fitur **Klik untuk Chat** memampukan Anda untuk memulai sebuah chat dengan seseorang tanpa harus menyimpan nomor telepon orang tersebut di buku telepon Anda. Selama Anda mengetahui nomor telepon orang ini, Anda dapat membuat tautan yang akan memampukan Anda untuk chat dengannya. Dengan mengeklik tautan, sebuah chat dengan orang tersebut akan terbuka secara otomatis. Klik untuk Chat bekerja baik pada telepon ataupun WhatsApp Web Anda.
