@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Send to Whatsapp</title>
     <link href="https://bootswatch.com/flatly/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -11,12 +12,12 @@
             <div class="col-xs-12 col-md-4 col-md-offset-4">
                 <form>
                     <div class="form-group">
-                        <label>Phone number</label>
-                        <input type="number" name="phone" class="form-control" placeholder="6281515339555">
+                        <label for="phone">Phone number</label>
+                        <input type="number" name="phone" id="phone" class="form-control" placeholder="6281515339555">
                     </div>
                     <div class="form-group">
-                        <label>Text</label>
-                        <textarea class="form-control" name="text"></textarea>
+                        <label for="text">Text</label>
+                        <textarea class="form-control" name="text" id="text"></textarea>
                     </div>
                     <button type="button" class="btn btn-primary send">Send</button>
                 </form>
