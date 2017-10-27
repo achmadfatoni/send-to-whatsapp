@@ -20,7 +20,7 @@
                         <label for="text">Text</label>
                         <textarea class="form-control" name="text" id="text"></textarea>
                     </div>
-                    <button type="button" class="btn btn-primary send">Send</button>
+                    <button type="button" class="btn btn-primary" id="send">Send</button>
                 </form>
             </div>
         </div>
@@ -30,14 +30,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 <script>
     $(document).ready(function(){
-        var btnSend = $('.send');
+        var btnSend = $('#send');
         btnSend.click(function (){
-            var phone = $('input[name=phone]').val();
+            var phone = $('#phone').val();
             if (!phone) {
                 swal('Please enter a phone number');
                 return;
             }
-            var text = $('textarea[name=text]').val();
+            var text = $('#text').val();
             if (!text) {
                 swal("Please enter message");
                 return;
